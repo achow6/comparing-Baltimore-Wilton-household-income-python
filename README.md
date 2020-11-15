@@ -38,6 +38,7 @@ The aforementioned research that found that socioeconomic status influences the 
 To further explore the difference in income, data on children's type/length of employment and education level might be helpful. It would also be helpful to include data on the city's economies and businesses (ex. turnover rate, revenue).
 
 # Step-by-Step Data Analysis
+[Google Collaboratory Link](https://colab.research.google.com/drive/1-z4Yh4Y-B9VY4IdPbwFNTN5lr4u97uyc?usp=sharing)
 1. Libraries were imported (Plotly, Pandas, Numpy)
 2. Data were imported and previewed
 3. Data were filtered to rows containing "Baltimore, MD" and "Wilton, CT" in the "Name" columns of each dataset
