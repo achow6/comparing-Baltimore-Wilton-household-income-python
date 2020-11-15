@@ -1,6 +1,7 @@
 # Comparing Household Income in Baltimore, MD and Wilton, CT
 
 This project serves to compare household income in two cities, Baltimore, MD, and my hometown, Wilton, CT. Although these areas are only about a 5 hour drive apart, having lived in both places for some time, I noticed that they are incredibly different. Household income is explored as a diffrentiator between these two cities.
+
 According to [research](https://pubmed.ncbi.nlm.nih.gov/20201871/), household income and SES affects the economic environment, which determines the robustness of the area's business and economy. More affluent areass have more robust businesses and economy. It would be helpful to understand what contributes to a socioeconomic status of an area, so parents socioeconomic status is explored as a possible contributor to child's household income. 
 
 # Business Question
