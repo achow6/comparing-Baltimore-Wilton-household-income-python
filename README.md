@@ -26,7 +26,7 @@ This is a visual generated from Excel from Mini-Project 1. Here we can see a lar
 ![alt text](https://github.com/achow6/comparing-baltimore-wilton-household-income/blob/master/Picture2.png)
 This is a visual generated from Excel from Mini-Project 1. Here we see that the large difference between average income persists even when looking at children that came from high income and low income families. In both cities, average household income is lower for those that came from low income families compared to high income ones. It is also interesting to see that the average overall household income in Wilton exceeds the average income of a child from high income Wilton parents.
 
-![alt text](
+![alt text](https://github.com/achow6/comparing-Baltimore-Wilton-household-income-python/blob/main/Python%20Plotly.png)
 This is a visual generated from Python for this project. Here, we still see that there is a large difference in child's household income depending on which income bracket the child grew up in. In both cities, average household income is lowest for children that came from low income families, higher for children that came from middle income families, and highest for children that came from high income families. The average overall household income in Wilton still exceeds the average income of a child from any income parents in Wilton.
 
 # Business Answer
@@ -37,6 +37,11 @@ The middle income dataset was included in the Python analysis to try to determin
 The aforementioned research that found that socioeconomic status influences the robustness of a cities' businesses and economy. Therefore, this data suggests that Wilton could have a more robust business structure and economy than Baltimore because Wilton shows a higher household income across all categories than Baltimore.
 
 To further explore the difference in income, data on children's type/length of employment and education level might be helpful. It would also be helpful to include data on the city's economies and businesses (ex. turnover rate, revenue).
+
+# Comparing Python and Excel Analysis
+Python presented a much easier method to import, filter, and merge data. Instead of having to open each individual dataset over and over again and selecting specific columns to conduct merging techniques like VLOOKUP, Python allowed me to easily merge the datasets on one screen. Additionally, instead of having to split the cells to include all of the Baltimore, MD rows like I had to in Mini-Project 1, Python could filter the dataset to every cell containing "Baltimore, MD" in the column, which made the filtering process much faster. Python also made calculating averages much easier because instead of calculating averages for each column, Python could calculate averages for every column in the dataset with one command.
+
+One disadvantage I came across with Python was that it assumed my values were objects, and therefore, was not able to calculate the average for each column at first. I had to convert them to floats to get the average. This is a problem I would not have encountered in Excel. I felt that creating visuals for this project was also slightly more difficult in Python. In Excel, I would press the bargraph button, and Excel would automatically generate a visual for me, but for Python, I had to code what I specifically wanted.
 
 # Step-by-Step Data Analysis
 [Google Collaboratory Link](https://colab.research.google.com/drive/1-z4Yh4Y-B9VY4IdPbwFNTN5lr4u97uyc?usp=sharing)
