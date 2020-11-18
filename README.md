@@ -45,6 +45,7 @@ One disadvantage I came across with Python was that it assumed my values were ob
 
 # Step-by-Step Data Analysis
 [Google Collaboratory Link](https://colab.research.google.com/drive/1-z4Yh4Y-B9VY4IdPbwFNTN5lr4u97uyc?usp=sharing)
+**Python Data Analysis:**
 1. Libraries were imported (Plotly, Pandas, Numpy)
 2. Data were imported and previewed
 3. Data were filtered to rows containing "Baltimore, MD" and "Wilton, CT" in the "Name" columns of each dataset
@@ -53,3 +54,6 @@ One disadvantage I came across with Python was that it assumed my values were ob
 6. Object columns in the Baltimore dataframe were converted into floats
 7. Averages for each column were calculated in each dataframe to determine average child's household income in each parent income bracket
 8. Bar graph visual was created using Plotly
+
+**Original Excel Analysis:**
+Once the original data was downloaded, the location column (containing neighborhood, city, and state) was split into three separate columns for each (neighborhood, city, state). Cities outside of the scope were then filtered out. The VLOOKUP tool was then used to combine the datasets based on their "tract" number. The datasets from both cities were also combined to create a more cohesive analysis (both datasets shared the same column names and units of measurement). The data were analyzed through pivot charts and tables for numeric and visual results.
