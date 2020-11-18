@@ -50,8 +50,8 @@ One disadvantage I came across with Python was that it assumed my values were ob
 2. Data were imported and previewed
 3. Data were filtered to rows containing "Baltimore, MD" and "Wilton, CT" in the "Name" columns of each dataset
 4. Data were merged into one dataframe for Baltimore and one dataframe for Wilton on the "Name" and "tract" columns
-5. Removed cells containing "void" in Baltimore dataframe
-6. Object columns in the Baltimore dataframe were converted into floats
+5. Merged dataframes for Baltimore and Wilton were combined
+6. Column names were renamed for clarity (to diffrentiate between the two cities)
 7. Averages for each column were calculated in each dataframe to determine average child's household income in each parent income bracket
 8. Bar graph visual was created using Plotly
 
