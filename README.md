@@ -41,7 +41,7 @@ To further explore the difference in income, data on children's type/length of e
 # Comparing Python and Excel Analysis
 Python presented a much easier method to import, filter, and merge data. Instead of having to open each individual dataset over and over again and selecting specific columns to conduct merging techniques like VLOOKUP, Python allowed me to easily merge the datasets on one screen. Additionally, instead of having to split the cells to include all of the Baltimore, MD rows like I had to in Mini-Project 1, Python could filter the dataset to every cell containing "Baltimore, MD" in the column, which made the filtering process much faster.
 
-I felt that creating visuals for this project was slightly more difficult in Python. In Excel, I would press the bargraph button, and Excel would automatically generate a visual for me, but for Python, I had to code what I specifically wanted.
+One disadvantage I came across with Python was that it assumed my values were objects. I had to convert them to floats to get the average. This is a problem I would not have encountered in Excel. I felt that creating visuals for this project was also slightly more difficult in Python. In Excel, I would press the bargraph button, and Excel would automatically generate a visual for me, but for Python, I had to code what I specifically wanted.
 
 # Step-by-Step Data Analysis
 [Google Collaboratory Link](https://colab.research.google.com/drive/1-z4Yh4Y-B9VY4IdPbwFNTN5lr4u97uyc?usp=sharing)
@@ -50,10 +50,11 @@ I felt that creating visuals for this project was slightly more difficult in Pyt
 2. Data were imported and previewed
 3. Data were filtered to rows containing "Baltimore, MD" and "Wilton, CT" in the "Name" columns of each dataset
 4. Data were merged into one dataframe for Baltimore and one dataframe for Wilton on the "Name" and "tract" columns
-5. Merged dataframes for Baltimore and Wilton were combined
-6. Column names were renamed for clarity (to diffrentiate between the two cities)
-7. Averages for each column were calculated in each dataframe to determine average child's household income in each parent income bracket
-8. Bar graph visual was created using Plotly
+5. All values in the "Name" column of the merged Baltimore dataframe were changed to say "Baltimore, MD" instead of "*NeighborhoodName*, Baltimore, MD"
+6. Merged dataframes for Baltimore and Wilton were combined
+7. "void" was removed from the merged dataset and column datatypes were changed to float
+8. Pivot table displaying average income in each SES bracket in each city was created
+8. Bar graph visual was created from the pivot table using Plotly
 
 **Original Excel Analysis:**
 Once the original data was downloaded, the location column (containing neighborhood, city, and state) was split into three separate columns for each (neighborhood, city, state). Cities outside of the scope were then filtered out. The VLOOKUP tool was then used to combine the datasets based on their "tract" number. The datasets from both cities were also combined to create a more cohesive analysis (both datasets shared the same column names and units of measurement). The data were analyzed through pivot charts and tables for numeric and visual results.
