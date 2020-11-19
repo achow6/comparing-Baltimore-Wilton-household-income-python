@@ -44,7 +44,7 @@ Python presented a much easier method to import, filter, and merge data. Instead
 One disadvantage I came across with Python was that it assumed my values were objects. I had to convert them to floats to get the average. This is a problem I would not have encountered in Excel. I felt that creating visuals for this project was also slightly more difficult in Python. In Excel, I would press the bargraph button, and Excel would automatically generate a visual for me, but for Python, I had to code what I specifically wanted.
 
 # Step-by-Step Data Analysis
-[Google Collaboratory Link](https://colab.research.google.com/drive/1-z4Yh4Y-B9VY4IdPbwFNTN5lr4u97uyc?usp=sharing)
+[![Google Collaboratory Link](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1-z4Yh4Y-B9VY4IdPbwFNTN5lr4u97uyc?usp=sharing)
 **Python Data Analysis:**
 1. Libraries were imported (Plotly, Pandas, Numpy)
 2. Data were imported and previewed
